@@ -1,8 +1,6 @@
 # Migrator
 Migrator for Mac OS with a simple graphical user interface. AppleScript powered. Designed for fast save and restore Mac OS applications and their settings.
 
-Fast save/restore Mac OS apps and their settings. AppleScript powered.
-
 <p align="center">
 <img width="420" height="161" src="https://github.com/telenkor/migrator/assets/31967374/4dcafa0c-4e0c-41c1-b1dc-88ef4be6d293">
 </p>
