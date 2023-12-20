@@ -24,6 +24,7 @@ The application does not have any built-in database or interface for editing it.
 
 - The data are stored in a config.plist file. Config file <em>must be in the same directory</em> as the application. For editing, you can use any plist file editor.
 - If you do not want to delete an entry from the file, but want to hide it, then add an asterisk to the appname (see point 1 below).
+- If a backup for this application already exists, then Migrator will create a new one with a name: %appname% [YYYY.MM.DD.HHMM]
 
 ## Structure config.plist
 
