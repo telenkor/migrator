@@ -2,7 +2,7 @@
 
 Migrator for Mac OS with a simple graphical user interface. AppleScript powered. Designed for fast save and restore Mac OS applications and their settings.
 
-The application is useful if you are reinstalling Mac OS or want to transfer configured applications to another computer.
+The application is useful if you are reinstalling Mac OS or want to transfer configured applications to another computer. You don’t have to open .dmg files of each application, drag each one into Applications or run installers and re-enter a huge number of settings.
 
 <p align="center">
 <img width="420" src="https://github.com/telenkor/migrator/assets/31967374/4dcafa0c-4e0c-41c1-b1dc-88ef4be6d293">
@@ -22,8 +22,8 @@ Migrator itself does not scan your Applications directory. You enter the data in
 
 The application does not have any built-in database or interface for editing it. This is due to the fact that the necessary entries are made, as a rule, once. And only occasionally are they supplemented or changed. Having built-in functionality for this would unnecessarily complicate this project.
 
-- The settings are stored in a config.plist file. Config file <em>must be in the same directory</em> as the application. For editing, you can use any plist file editor.
-- If you do not want to delete an entry from the file, but want to hide it, then put an asterisk anywhere in the key line.
+- The data are stored in a config.plist file. Config file <em>must be in the same directory</em> as the application. For editing, you can use any plist file editor.
+- If you do not want to delete an entry from the file, but want to hide it, then add an asterisk to the appname (see point 1 below).
 
 ## Structure config.plist
 
@@ -32,8 +32,8 @@ The application does not have any built-in database or interface for editing it.
 </p>
 The structure of the config.plist file opened in the PlistEdit Pro application is shown.
 
-1. The name of the application as it will be shown in the Migrator GUI (see screenshots above).
-2. Key names. They can be anything, but they must be different.
+1. The name of the application as it will be shown in the Migrator GUI.
+2. Names of child keys. They can be anything, but they must be different.
 3. The name of the user's home directory when creating the backup. When installing from this backup on a system with a different home directory, this name will be changed to the current one automatically.
 
 ## Important
