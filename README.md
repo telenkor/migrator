@@ -36,6 +36,10 @@ The structure of the config.plist file opened in the PlistEdit Pro application i
 2. Names of child keys. They can be anything, but they must be different.
 3. The name of the user's home directory when creating the backup. When installing from this backup on a system with a different home directory, this name will be changed to the current one automatically.
 
+The source contains the <em>sample_config.plist</em>, which contains the paths of some popular applications and their settings.
+
+You can also find settings for your application by searching for its <em>Bundle ID</em> on the system drive.
+
 ## Important
 
 In the directory where applications with their settings are saved, do not create your own files or folders.
