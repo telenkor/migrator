@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>### add * for hide in interface ###</key>
+	<dict/>
+	<key>Aurora HDR</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/Aurora HDR.app</string>
+		<key>1</key>
+		<string>/Users/John Doe/Library/Group Containers/DPA6233TPQ.com.macphun.aurorahdr2019</string>
+	</dict>
+	<key>Better Zip</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/BetterZip.app</string>
+		<key>1</key>
+		<string>/Users/John Doe/Library/Preferences/com.macitbetter.betterzip.plist</string>
+	</dict>
+	<key>Blackmagic Disk Speed Test</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/Blackmagic Disk Speed Test.app</string>
+	</dict>
+	<key>Carbon Copy Cloner (+ manual import)</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/Carbon Copy Cloner.app</string>
+		<key>2</key>
+		<string>/Library/Application Support/com.bombich.ccc/TaskDBsV2</string>
+		<key>4</key>
+		<string>/Library/Application Support/com.bombich.ccc/GlobalDefaults.plist</string>
+		<key>5</key>
+		<string>/Users/John Doe/Library/Preferences/com.bombich.ccc.plist</string>
+	</dict>
+	<key>Dehancer PS plugin</key>
+	<dict>
+		<key>0</key>
+		<string>/Library/Application Support/Adobe/Plug-Ins/CC/Dehancer</string>
+		<key>1</key>
+		<string>/Users/John Doe/Library/Application Support/com.dehancer.film_pslr.v1</string>
+		<key>2</key>
+		<string>/Users/John Doe/Library/Application Support/com.dehancer.film_shared</string>
+	</dict>
+	<key>DxO Photo Lab 6</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/DXOPhotoLab6.app</string>
+		<key>1</key>
+		<string>/Users/John Doe/Library/Preferences/com.dxo.photolab6.mdworkspace.plist</string>
+		<key>2</key>
+		<string>/Users/John Doe/Library/Preferences/com.dxo.PhotoLab6.plist</string>
+		<key>3</key>
+		<string>/Users/John Doe/Library/Preferences/com.dxo.photolab6.workspace.plist</string>
+		<key>4</key>
+		<string>/Users/John Doe/Library/DxO PhotoLab v6</string>
+		<key>5</key>
+		<string>/Users/John Doe/Library/Application Support/DxO PhotoLab v6/Workspaces/favouritePalettes.plist</string>
+	</dict>
+	<key>DxO Photo Lab 7</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/DXOPhotoLab7.app</string>
+		<key>1</key>
+		<string>/Users/John Doe/Library/Preferences/com.dxo.photolab7.mdworkspace.plist</string>
+		<key>2</key>
+		<string>/Users/John Doe/Library/Preferences/com.dxo.PhotoLab7.plist</string>
+		<key>3</key>
+		<string>/Users/John Doe/Library/Preferences/com.dxo.photolab7.workspace.plist</string>
+		<key>4</key>
+		<string>/Users/John Doe/Library/DxO PhotoLab v7/Modules</string>
+		<key>5</key>
+		<string>/Users/John Doe/Library/DxO PhotoLab v7/Presets</string>
+		<key>6</key>
+		<string>/Users/John Doe/Library/DxO PhotoLab v7/WatermarkPresets</string>
+		<key>7</key>
+		<string>/Users/John Doe/Library/DxO PhotoLab v7/OutputSettings.plist</string>
+		<key>8</key>
+		<string>/Users/John Doe/Library/Application Support/DxO PhotoLab v7/Workspaces/favouritePalettes.plist</string>
+	</dict>
+	<key>FastRawViewer</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/FastRawViewer.app</string>
+		<key>2</key>
+		<string>/Users/John Doe/Library/Application Support/libraw-llc/FastRawViewer</string>
+		<key>3</key>
+		<string>/Users/John Doe/Library/Preferences/com.libraw-llc.FastRawViewer.plist</string>
+	</dict>
+	<key>FileZilla</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/FileZilla.app</string>
+		<key>1</key>
+		<string>/Users/John Doe/.config/filezilla</string>
+	</dict>
+	<key>HandBrake</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/HandBrake.app</string>
+		<key>1</key>
+		<string>/Users/John Doe/Library/Containers/fr.handbrake.HandBrake</string>
+		<key>2</key>
+		<string>/Users/John Doe/Library/Containers/fr.handbrake.HandBrakeXPCService</string>
+	</dict>
+	<key>ImageJ</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/ImageJ</string>
+	</dict>
+	<key>Iridient Developer</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/Iridient Developer.app</string>
+		<key>1</key>
+		<string>/Users/John Doe/Library/Application Support/Iridient Developer</string>
+		<key>2</key>
+		<string>/Users/John Doe/Library/Preferences/com.iridientdigital.RawDeveloper.plist</string>
+	</dict>
+	<key>Joplin</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/Joplin.app</string>
+		<key>1</key>
+		<string>/Users/John Doe/Library/Application Support/Joplin</string>
+		<key>2</key>
+		<string>/Users/John Doe/Library/Preferences/net.cozic.joplin-desktop.plist</string>
+		<key>3</key>
+		<string>/Users/John Doe/.config/joplin-desktop</string>
+	</dict>
+	<key>KeePassXC</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/KeePassXC.app</string>
+		<key>1</key>
+		<string>/Users/John Doe/Library/Application Support/KeePassXC</string>
+	</dict>
+	<key>LuLu</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/LuLu.app</string>
+		<key>1</key>
+		<string>/Library/Objective-See</string>
+	</dict>
+	<key>Luminar AI</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/Luminar AI.app</string>
+		<key>1</key>
+		<string>/Users/John Doe/Library/Group Containers/RTW788AXG3.com.skylum.luminarAI</string>
+		<key>2</key>
+		<string>/Users/John Doe/Pictures/Luminar AI Catalog</string>
+	</dict>
+	<key>Luminar Neo</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/Luminar Neo.app</string>
+		<key>1</key>
+		<string>/Users/John Doe/Library/Group Containers/RTW788AXG3.com.skylum.luminarneo</string>
+		<key>2</key>
+		<string>/Users/John Doe/Pictures/Luminar Neo Catalog</string>
+		<key>3</key>
+		<string>/Users/John Doe/Pictures/Luminar Neo Catalog Pra2022</string>
+	</dict>
+	<key>MediaInfo</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/MediaInfo.app</string>
+	</dict>
+	<key>Microsoft Remote Desktop</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/Microsoft Remote Desktop.app</string>
+		<key>1</key>
+		<string>/Users/John Doe/Library/Containers/com.microsoft.rdc.macos</string>
+	</dict>
+	<key>Middle (for magic mouse)</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/Middle.app</string>
+		<key>1</key>
+		<string>/Users/John Doe/Library/Preferences/com.knollsoft.Middle.plist</string>
+	</dict>
+	<key>NameChanger</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/NameChanger.app</string>
+		<key>1</key>
+		<string>/Users/John Doe/Library/Application Support/NameChanger</string>
+		<key>2</key>
+		<string>/Users/John Doe/Library/Preferences/com.mrrsoftware.NameChanger.plist</string>
+	</dict>
+	<key>Neofinder</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/NeoFinder.app</string>
+		<key>1</key>
+		<string>/Users/John Doe/Library/Application Support/NeoFinder</string>
+		<key>2</key>
+		<string>/Users/John Doe/Library/Preferences/de.wfs-apps.neofinder.plist</string>
+	</dict>
+	<key>Nikon NX Studio (restore untill full install)</key>
+	<dict>
+		<key>0</key>
+		<string>/Users/John Doe/Library/Preferences/com.nikon.PictureControl.plist</string>
+		<key>1</key>
+		<string>/Users/John Doe/Library/Preferences/jp.co.nikon.ColorManagement.plist</string>
+		<key>2</key>
+		<string>/Users/John Doe/Library/Preferences/jp.co.nikon.NX-Studio.plist</string>
+		<key>3</key>
+		<string>/Users/John Doe/Library/Application Support/Nikon/NX Studio/UserPreset</string>
+	</dict>
+	<key>OpenEmu</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/OpenEmu.app</string>
+		<key>1</key>
+		<string>/Users/John Doe/Library/Application Support/OpenEmu</string>
+		<key>2</key>
+		<string>/Users/John Doe/Library/Preferences/org.openemu.FCEU.plist</string>
+		<key>3</key>
+		<string>/Users/John Doe/Library/Preferences/org.openemu.Nestopia.plist</string>
+		<key>4</key>
+		<string>/Users/John Doe/Library/Preferences/org.openemu.OpenEmu.plist</string>
+		<key>5</key>
+		<string>/Users/John Doe/Library/Preferences/org.openemu.SNES9x.plist</string>
+	</dict>
+	<key>PTGui Pro</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/PTGui Pro.app</string>
+		<key>1</key>
+		<string>/Users/John Doe/Library/Application Support/PTGui</string>
+	</dict>
+	<key>Panotour 2.5</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/Panotour Pro 2.5.app</string>
+		<key>1</key>
+		<string>/Users/John Doe/Documents/Kolor</string>
+		<key>2</key>
+		<string>/Users/John Doe/Library/Preferences/com.kolor.Panotour Pro 2.5.plist</string>
+		<key>3</key>
+		<string>/Users/John Doe/Library/Preferences/com.kolor.PanotourPro25.plist</string>
+	</dict>
+	<key>Photoshop 2023 (restore untill full install)</key>
+	<dict>
+		<key>14</key>
+		<string>/Users/John Doe/Library/Preferences/Adobe Camera Raw 15.0 Prefs</string>
+		<key>15</key>
+		<string>/Users/John Doe/Library/Preferences/Adobe Photoshop 2023 Settings</string>
+		<key>16</key>
+		<string>/Users/John Doe/Library/Preferences/Adobe Save for Web 13.0 Prefs</string>
+		<key>17</key>
+		<string>/Users/John Doe/Library/Preferences/Adobe/LensCorrection/1.0/Settings</string>
+		<key>18</key>
+		<string>/Users/John Doe/Library/Preferences/Adobe Photoshop 2023 Settings-orig.zip</string>
+	</dict>
+	<key>PlistEdit Pro</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/PlistEdit Pro.app</string>
+		<key>1</key>
+		<string>/Users/John Doe/Library/Preferences/com.fatcatsoftware.pledpro.plist</string>
+	</dict>
+	<key>PuntoSwitcher (restore untill full install)</key>
+	<dict>
+		<key>0</key>
+		<string>/Users/John Doe/Library/Preferences/ru.yandex.desktop.PuntoSwitcher.plist</string>
+		<key>1</key>
+		<string>/Users/John Doe/Library/Preferences/ru.yandex.punto.plist</string>
+	</dict>
+	<key>RPP</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/Raw Photo Processor 64.app</string>
+		<key>1</key>
+		<string>/Users/John Doe/Library/Application Support/RPP</string>
+		<key>2</key>
+		<string>/Users/John Doe/Library/Preferences/net.tigry.rpp.plist</string>
+	</dict>
+	<key>SMARTReporter</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/SMARTReporter.app</string>
+		<key>1</key>
+		<string>/Users/John Doe/Library/Preferences/com.corecode.SMARTReporter.plist</string>
+	</dict>
+	<key>Script Debugger</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/Script Debugger.app</string>
+		<key>1</key>
+		<string>/Users/John Doe/Library/Preferences/com.latenightsw.ScriptDebugger8.plist</string>
+		<key>2</key>
+		<string>/Users/John Doe/Library/Application Support/Script Debugger 8/User Themes</string>
+	</dict>
+	<key>Sublime Text</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/Sublime Text.app</string>
+		<key>1</key>
+		<string>/Users/John Doe/Library/Application Support/Sublime Text 3</string>
+	</dict>
+	<key>Topaz DeNoise AI</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/Topaz DeNoise AI.app</string>
+		<key>1</key>
+		<string>/Users/John Doe/Library/Preferences/com.topazlabs.Topaz DeNoise AI.plist</string>
+		<key>2</key>
+		<string>/Users/John Doe/Library/Preferences/com.topazlabs.TopazDeNoiseAI.plist</string>
+		<key>3</key>
+		<string>/Users/John Doe/Library/Application Support/Topaz Labs LLC/Topaz DeNoise AI</string>
+	</dict>
+	<key>Topaz Gigapixel AI</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/Topaz Gigapixel AI.app</string>
+		<key>1</key>
+		<string>/Users/John Doe/Library/Preferences/com.topazlabs.Topaz Gigapixel AI.plist</string>
+		<key>2</key>
+		<string>/Users/John Doe/Library/Preferences/com.topazlabs.TopazGigapixelAI.plist</string>
+		<key>3</key>
+		<string>/Users/John Doe/Library/Application Support/Topaz Labs LLC/Topaz Gigapixel AI</string>
+	</dict>
+	<key>Topaz Mask AI</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/Topaz Mask AI.app</string>
+		<key>1</key>
+		<string>/Users/John Doe/Library/Preferences/com.topazlabs.Topaz Mask AI.plist</string>
+		<key>2</key>
+		<string>/Users/John Doe/Library/Preferences/com.topazlabs.TopazMaskAI.plist</string>
+		<key>3</key>
+		<string>/Users/John Doe/Library/Application Support/Topaz Labs LLC/Topaz Mask AI</string>
+	</dict>
+	<key>Topaz Sharpen AI</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/Topaz Sharpen AI.app</string>
+		<key>1</key>
+		<string>/Users/John Doe/Library/Preferences/com.topazlabs.Topaz Sharpen AI.plist</string>
+		<key>2</key>
+		<string>/Users/John Doe/Library/Application Support/Topaz Labs LLC/Topaz Sharpen AI</string>
+	</dict>
+	<key>VLC</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/VLC.app</string>
+		<key>1</key>
+		<string>/Users/John Doe/Library/Preferences/org.videolan.vlc</string>
+		<key>2</key>
+		<string>/Users/John Doe/Library/Preferences/org.videolan.vlc.plist</string>
+	</dict>
+	<key>Yandex Disk</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/Yandex.Disk.2.app</string>
+		<key>1</key>
+		<string>/Users/John Doe/Library/Preferences/ru.yandex.desktop.disk2.plist</string>
+	</dict>
+	<key>qbittorrent</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/qbittorrent.app</string>
+		<key>1</key>
+		<string>/Users/John Doe/Library/Application Support/qBittorrent</string>
+		<key>2</key>
+		<string>/Users/John Doe/Library/Preferences/org.qbittorrent.qBittorrent.plist</string>
+		<key>3</key>
+		<string>/Users/John Doe/.config/qBittorrent</string>
+	</dict>
+	<key>set.a.light 3D</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/set.a.light 3D v2.5.app</string>
+		<key>1</key>
+		<string>/Library/Preferences/elixxier/set.a.light/sal_v2.lic</string>
+		<key>2</key>
+		<string>/Users/John Doe/Library/Preferences/com.elixxier.SALv2.plist</string>
+	</dict>
+</dict>
+</plist>
