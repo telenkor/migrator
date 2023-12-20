@@ -22,7 +22,7 @@ Migrator itself does not scan your Applications directory. You enter the data in
 
 The application does not have any built-in database or interface for editing it. This is due to the fact that the necessary entries are made, as a rule, once. And only occasionally are they supplemented or changed. Having built-in functionality for this would unnecessarily complicate this project.
 
-- The data are stored in a config.plist file. Config file <em>must be in the same directory</em> as the application. For editing, you can use any plist file editor.
+- The data are stored in a config.plist file. Config file <em>must be in the same directory</em> as the application.
 - If you do not want to delete an entry from the file, but want to hide it, then add an asterisk to the appname (see point 1 below).
 - If a backup for this application already exists, then Migrator will create a new one with a name: %appname% [YYYY.MM.DD.HHMM]
 
@@ -31,7 +31,7 @@ The application does not have any built-in database or interface for editing it.
 <p align="center">
 <img width="691" src="https://github.com/telenkor/migrator/assets/31967374/a4a9fcea-41bf-4179-91be-73e59e30be56">
 </p>
-The structure of the config.plist file opened in the PlistEdit Pro application is shown.
+The structure of the config.plist file opened in the PlistEdit Pro application is shown. For editing, you can use any plist file editor.
 
 1. The name of the application as it will be shown in the Migrator GUI.
 2. Names of child keys. They can be anything, but they must be different.
