@@ -10,6 +10,6 @@ Migrator for Mac OS with a simple graphical user interface. AppleScript powered.
 </p>
 
 <p align="center">
-<img width="605" height="813" src="https://github.com/telenkor/migrator/assets/31967374/3c7b9421-5b0b-4a1e-a2bb-1892eec618e4">
+<img width="605" src="https://github.com/telenkor/migrator/assets/31967374/3c7b9421-5b0b-4a1e-a2bb-1892eec618e4">
 </p>
 
