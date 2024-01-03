@@ -271,6 +271,13 @@
 		<key>1</key>
 		<string>/Users/John Doe/Library/Preferences/ru.yandex.punto.plist</string>
 	</dict>
+	<key>PyCharm</key>
+	<dict>
+		<key>0</key>
+		<string>/Applications/PyCharm CE.app</string>
+		<key>1</key>
+		<string>/Users/John Doe/Library/Application Support/JetBrains</string>
+	</dict>
 	<key>RPP</key>
 	<dict>
 		<key>0</key>
