@@ -12,10 +12,10 @@ use scripting additions
 use script "Myriad Tables Lib" version "1.0.13"
 
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
--- 				Functions
+-- 					   	Functions
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
--- 			Function to sort list rows
+-- 					Function to sort list rows
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 to qsort(array, leftEnd, rightEnd) -- Hoare's QuickSort Algorithm
 	script A
@@ -40,7 +40,7 @@ to qsort(array, leftEnd, rightEnd) -- Hoare's QuickSort Algorithm
 end qsort
 
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
--- 				Adaptive path short
+-- 						Adaptive path short
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 -- Remove /Volumes, 25 first and 24 last symbols
 to pathShort(ln)
@@ -63,7 +63,7 @@ end pathShort
 
 
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
--- 					Main
+-- 					  		 	Main
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
 set config_Location to (do shell script "dirname " & quoted form of (POSIX path of (path to me))) & "/config.plist"
@@ -168,7 +168,7 @@ display dialog return & msg_task_qwe & return with icon alias ((path to me) & "C
 set answer to button returned of the result
 
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
--- 				Backup Task
+-- 					  	 Backup Task
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
 if answer is msg_task_btn_bck then
@@ -205,10 +205,10 @@ if answer is msg_task_btn_bck then
 	qsort(list_app_Name, 1, (length of list_app_Name))
 	
 	-- Choosing applications for backup
-	set Table to «event !©Mt!©Td» list_app_Name with «class mlsl» given «class appr»:"Migrator", «class !©Is»:{1}, «class !©Ch»:{}, «class prmp»:msg_ch_bck, «class !©Rt»:{text}
-	«event !©Mt!©Tm» Table with «class !©Ab» given «class !©Gs»:«constant !©GS!©g+», «class okbt»:msg_btn_go, «class cnbt»:msg_btn_cancel
-	set theResult to «event !©Mt!©Sd» Table
-	set app_Selected to «class !©Zv» of theResult
+	set Table to make new table with data list_app_Name with title "Migrator" initially selected rows {1} column headings {} with prompt msg_ch_bck row template {text} with multiple selections allowed
+	modify table Table grid style grid both dashed between rows OK button name msg_btn_go cancel button name msg_btn_cancel with alternate backgrounds
+	set theResult to display table Table
+	set app_Selected to values selected of theResult
 	
 	-- Legacy choosing applications for backup
 	--set app_Selected to choose from list list_app_Name with title "Migrator" with prompt msg_ch_bck OK button name msg_btn_go cancel button name msg_btn_cancel default items {item 1 of lst_app_name} with multiple selections allowed
@@ -293,7 +293,7 @@ if answer is msg_task_btn_bck then
 	
 	
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-	-- 				Install Task
+	-- 					  		Install Task
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --	
 	
 else
@@ -354,7 +354,7 @@ else
 		
 	end repeat
 	
-	set list_app_Name to «event !©M1!©cR» {list_Names, list_VerApp, list_ModDates}
+	set list_app_Name to swap columns and rows in {list_Names, list_VerApp, list_ModDates}
 	
 	-- Check source directory
 	if list_app_Name is {} then
@@ -366,12 +366,12 @@ else
 	display alert msg_warn message msg_files_exist as critical buttons {msg_btn_cancel, msg_btn_go} default button msg_btn_go cancel button msg_btn_cancel
 	
 	-- Choosing applications for install
-	set Table to «event !©Mt!©Td» list_app_Name with «class mlsl» given «class appr»:"Migrator", «class !©Is»:{1}, «class !©Ch»:{msg_ch_inst_application, msg_ch_inst_version, msg_ch_inst_mod_date}, «class prmp»:msg_ch_inst, «class !©Rt»:{text, text, date}
-	«event !©Mt!©Tm» Table with «class !©Ab» given «class !©Gs»:«constant !©GS!©g+», «class okbt»:msg_btn_go, «class cnbt»:msg_btn_cancel
-	«event !©Mt!©Mc» Table given «class !©Ha»:«constant !©Am!©Ac»
-	«event !©Mt!©Mc» Table given «class !©Cl»:{2, 3}, «class !©Ea»:«constant !©Am!©Ac»
-	set theResult to «event !©Mt!©Sd» Table
-	set app_Selected to «class !©Zv» of theResult
+	set Table to make new table with data list_app_Name with title "Migrator" initially selected rows {1} column headings {msg_ch_inst_application, msg_ch_inst_version, msg_ch_inst_mod_date} with prompt msg_ch_inst row template {text, text, date} with multiple selections allowed
+	modify table Table grid style grid both dashed between rows OK button name msg_btn_go cancel button name msg_btn_cancel with alternate backgrounds
+	modify columns in table Table head alignment align center
+	modify columns in table Table columns list {2, 3} entry alignment align center
+	set theResult to display table Table
+	set app_Selected to values selected of theResult
 	
 	-- Count of selected applications
 	set cnt to length of app_Selected
@@ -435,7 +435,7 @@ end if
 
 
 #################################################
-#		End of Program
+#							End of Program
 #################################################
 
 -- Reset progress-bar
