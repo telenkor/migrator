@@ -12,10 +12,10 @@ use scripting additions
 use script "Myriad Tables Lib" version "1.0.13"
 
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
--- 					   	Functions
+-- 				Functions
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
--- 					Function to sort list rows
+-- 			Function to sort list rows
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 to qsort(array, leftEnd, rightEnd) -- Hoare's QuickSort Algorithm
 	script A
@@ -40,7 +40,7 @@ to qsort(array, leftEnd, rightEnd) -- Hoare's QuickSort Algorithm
 end qsort
 
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
--- 						Adaptive path short
+-- 				Adaptive path short
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 -- Remove /Volumes, 25 first and 24 last symbols
 to pathShort(ln)
@@ -63,7 +63,7 @@ end pathShort
 
 
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
--- 					  		 	Main
+-- 					Main
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
 set config_Location to (do shell script "dirname " & quoted form of (POSIX path of (path to me))) & "/config.plist"
@@ -168,7 +168,7 @@ display dialog return & msg_task_qwe & return with icon alias ((path to me) & "C
 set answer to button returned of the result
 
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
--- 					  	 Backup Task
+-- 				Backup Task
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
 if answer is msg_task_btn_bck then
@@ -293,7 +293,7 @@ if answer is msg_task_btn_bck then
 	
 	
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-	-- 					  		Install Task
+	-- 				Install Task
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --	
 	
 else
@@ -435,7 +435,7 @@ end if
 
 
 #################################################
-#							End of Program
+#		End of Program
 #################################################
 
 -- Reset progress-bar
