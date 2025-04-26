@@ -4,7 +4,7 @@
 --          Version: 2.5.5
 --          Released under GNU Public License (GPL)
 --          https://github.com/telenkor/migrator
---          mail@chushkin.com
+--          dev@36pix.ru
 --------------------------------------------------------------------------
 
 use AppleScript version "2.4" -- Yosemite (10.10) or later
