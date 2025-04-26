@@ -1,6 +1,15 @@
-# Migrator
+<div align="center">
+  <h1 align="center">Migrator</h1>
 
-Migrator for Mac OS with a simple graphical user interface. AppleScript powered. Designed for fast save and restore Mac OS applications and their settings.
+  <p align="center">
+    Migrator for Mac OS with a simple graphical user interface. Designed for fast save and restore Mac OS applications and their settings. AppleScript powered.
+    <br />
+    <a href="https://github.com/telenkor/migrator/releases"><strong>Get the latest release</strong></a>
+    <br />
+  </p>
+</div>
+
+## About The Project
 
 The application is useful if you are reinstalling Mac OS or want to transfer configured applications to another computer. You don’t have to open .dmg files of each application, drag each one into Applications or run installers and re-enter a huge number of settings.
 
